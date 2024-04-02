@@ -1,0 +1,38 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url('cin2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#Edad{
+    margin-left: 22%;
+}
+
+button{
+    margin-left: 22%;
+}
+
+textarea{
+    margin-left: 22%;
+}
+
+h4{
+    margin-left: 22%;
+}
+
+#p1{
+    margin-top: 3%;
+}
+
+#imagenpeli {
+    position: fixed;
+    right: 700px; /* Ajusta este valor según tus necesidades para la distancia desde el borde derecho */
+    bottom: 450px; /* Ajusta este valor según tus necesidades para la distancia desde la parte inferior */
+}

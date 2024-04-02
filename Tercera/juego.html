@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>Preguntas Pokémon</title>
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    <h1 id="CuentaRegresiva" onclick="cuentaregresiva()" style="color: green;">30</h1>
+    <!-- Preguntas -->
+    <p><span id="inicio_p">P1:</span> Cual pokémon de esta lista no es legendario?</p>
+    <ul>
+        <li>Lugia</li>
+        <li>Reshiram</li>
+        <li>Uxie</li>
+        <li>Giratina</li>
+        <li>Druddigon</li>
+    </ul>
+    <!-- Respuesta: Druddigon -->
+    <input type="text" id="p1">
+    <p><span id="inicio_p">P2:</span> Cuál es la pre-evolución de Milotic</p>
+    <ul>
+        <li>Relicanth</li>
+        <li>Bruxish</li>
+        <li>Finneon</li>
+        <li>Feebas</li>
+        <li>Arrokuda</li>
+    </ul>
+    <!-- Respuesta: Feebas -->
+    <input type="text" id="p2">
+    <p><span id="inicio_p">P3:</span> Cuántos pokémons nuevos hay en la quinta generación? (Región de Teselia)</p>
+    <ul>
+        <li>156</li>
+        <li>159</li>
+        <li>162</li>
+        <li>152</li>
+        <li>147</li>
+    </ul>
+    <!-- Respuesta: 156-->
+    <input type="text" id="p3">
+    <p><span id="inicio_p">P4:</span> Qué Pokémon se encuentra en la región de Johto y tiene la capacidad de controlar el tiempo?</p>
+    <ul>
+        <li>Mew</li>
+        <li>Celebi</li>
+        <li>Jirachi</li>
+        <li>Mesprit</li>
+        <li>Phione</li>
+    </ul>
+    <!-- Respuesta: Celebi -->
+    <input type="text" id="p4">
+    <p><span id="inicio_p">P5:</span> Cuántas evoluciones diferentes puede tener eevee?</p>
+    <ul>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+    </ul>
+    <!-- Respuesta: 8 -->
+    <input type="text" id="p5">
+    <button onclick="findeljuego()" id="fin">Enviar</button>
+    <audio id="Audio"><source src="burbujasonido.mp3" type="audio/mpeg"> Sonido no encontrado.</audio>
+    <div id="menu">
+        <h2>Menú:</h2>
+        <button id="inicio">Inicio</button>
+        <button id="reiniciar">Reiniciar</button>
+        <script src="juego.js" defer></script>
+    </div>
+</body>
+</html>

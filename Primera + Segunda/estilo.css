@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: slategrey;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: justify;
+  }
+  
+header {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: slategrey;
+    color: #fff;
+}
+  
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: slategrey;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+  
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+ul {
+    margin-top: 0; /* Elimina el margen superior de la lista */
+    padding-left: 10px; /* Ajusta el margen izquierdo de la lista */
+}
+
+/* Estilos específicos para la Página Principal */
+.pag1{
+    color: #fff;
+    text-align: center;
+    max-width: 85%;
+    margin: 0 auto; /* Añade un margen automático en los lados izquierdo y derecho */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.pag1 p{
+    text-align: justify;
+}
+
+/* Estilos específicos para la Página de Juguetes */
+
+.pag2{
+    color: #fff;
+    text-align: center;
+    max-width: 85%;
+    margin: 0 auto; /* Añade un margen automático en los lados izquierdo y derecho */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.pag2 p{
+    text-align: justify;
+}
+
+/* Estilos específicos para la Página de Lugares Preferidos */
+.pag3{
+    color: #fff;
+    text-align: center;
+    max-width: 85%;
+    margin: 0 auto; /* Añade un margen automático en los lados izquierdo y derecho */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+.pag3 p{
+    text-align: justify;
+}
+
+.normal{
+    color: #fff;
+    text-align: left;
+    max-width: 85%;
+}
+
+#menu{
+    color: #39d4f0;
+}
+
+#menu::first-letter{
+    font-size: x-large;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Recomendaciones de películas</title>
+    <link rel="stylesheet" href="inicio.css">
+</head>
+<body>
+    <h4 id="p1">Ingresa tu edad:</h4>
+    <input type="text" id="Edad"><br>
+    <h4 id="p1">Selecciona tu genero favorito:</h4>
+    <button id="Comedia" onclick="recomendar('Comedia')">Comedia</button><br>
+    <button id="Drama" onclick="recomendar('Drama')">Drama</button><br>
+    <button id="Musical" onclick="recomendar('Musical')">Musical</button><br>
+    <button id="Crimen" onclick="recomendar('Crimen')">Crimen</button><br>
+    <h4 id="p1">Tu recomendación:</h4>
+    <textarea id="Recomendaciones" readonly></textarea><br>
+    <div id="contenedorImagen"></div>
+    <script src="inicio.js"></script>
+</body>
+</html>
