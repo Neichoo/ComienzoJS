@@ -1,0 +1,39 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('sala.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #0a0a0a;
+    margin: 0;
+    padding: 0;
+}
+button{
+    margin-top: 20px;
+    height: 100px;
+    width: 300px;
+    background-color: slategrey;
+    font-size:x-large
+}
+ul {
+    position: absolute; /* Cambia a position: absolute; */
+    top: 0; /* Añade esta línea para posicionar en la parte superior */
+    margin-left: 65%;
+}
+li{
+    font-size: large;
+    text-align: left;
+    margin-left: 60%;
+    margin-bottom: 10px;
+}
+
+h3{
+    top: 0;
+    margin-left: 25%;
+}
